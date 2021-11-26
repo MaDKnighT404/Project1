@@ -1,0 +1,43 @@
+.main__menu__conteiner {
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-image: url(background_header.png);
+    background-size: cover;
+}
+
+.main__menu__list {
+    display: flex;
+    
+}
+
+
+.logo__border {
+    font-size: 2.2em;
+    margin: 40px 0;
+}
+
+.logo__company {
+    color: #ee8129;
+    text-transform: capitalize;
+}
+
+.logo__name {
+    color: #3070a8;
+    text-transform: uppercase;
+}
+
+.main__menu__list__border{
+    margin: 20px 0 20px 300px;
+}
+
+.main__menu__list {
+    list-style: none;
+}
+
+.main__menu__cell {
+    padding:25px;
+    color: #989898;
+    text-transform: uppercase;
+}
