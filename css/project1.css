@@ -14,7 +14,7 @@ html,body {
     padding: 0;
 }
 
-/* начала меню header */
+/* начало меню header */
 
 header {
     background-image: url(background_header.png);
@@ -142,9 +142,7 @@ header {
     font-weight: 700;
 }
 
-/* конец меню header */
-
-/* начала цен */
+/* начало цен */
 
 .price__main__conteiner{ 
     position: relative;
@@ -230,7 +228,7 @@ header {
 
 .price__title__center {
     background:#ee8129;
-    padding:15px 0;
+    padding:15px 0 10px 0;
     box-shadow: 0px -2px 1px 2px rgba(31, 76, 111, 0.09);
 }
 
@@ -335,4 +333,129 @@ header {
 
 .price__button__right:hover {
     background:#1cb79a;
+}
+
+/* начало отзывов */
+
+.review__wrapper {
+    background-image: url(back.png);
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.review__title {
+    text-transform: uppercase;
+    color: #3170a8;
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+}
+
+.review__what {
+    color: #ee8129;
+}
+
+.review__main {
+    display: flex;
+    margin: 0 auto;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+.review__conteiner {
+    display: flex;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+
+/* тут хранятся картинки. Общий класс [class*="picture"]  должен обязательно находится ниже */
+
+.review__picture1 {
+    background: url(review_pic1.png);
+}
+
+.review__picture2 {
+    background: url(review_pic2.png);
+}
+
+.review__picture3 {
+    background: url(review_pic3.png);
+}
+
+[class*="review__picture"] {
+    display: block;
+    width:100px;
+    height:100px;
+    background-size: cover;
+}
+
+.review__block {
+    position:relative;
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    background: white;
+    margin-left: 30px;
+    border-radius: 7px;
+}
+
+.review__review::before {
+    content: '';
+    position: absolute;
+    left: -13px;
+    top:40px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid rgb(255, 255, 255);
+    }
+
+[class*="review__rank"] , .name {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    font-weight: 600;
+    color:#3070a8;
+}
+
+.review__rank3 {
+    text-decoration: line-through;
+}
+
+.review__name {
+    text-align: left;
+    position:absolute;
+    left:30px;
+    top:10px;
+}
+
+.review__name::before {
+    content: '-';
+    position: absolute;
+    left:-10px;
+}
+
+[class*="rank"] {
+    text-align: right;
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    
+}
+
+.review__border__dotted {
+    margin: 0 auto; 
+    width: 92%;
+    height:40px;
+    border-bottom: 2px dotted #cfcdcd;
+}
+
+[class*="review__text"] {
+    margin:10px 15px 7px 20px;
+    text-align: start;
+    font-size: 12px;
+    line-height: 1.5;
+    color:#666666;
+    display: inline-block;
 }
