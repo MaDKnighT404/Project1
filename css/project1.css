@@ -17,7 +17,7 @@ html,body {
 /* начало меню header */
 
 header {
-    background-image: url(background_header.png);
+    background-image: url(img/background_header.png);
     background-size: cover;
     padding-bottom: 70px;
 }
@@ -283,7 +283,7 @@ header {
 }
 
 [class*="price__cell"]::before { 
-    content: url("../csslesson6/-.png");
+    content: url("img/-.png");
     position: absolute;
     zoom: 5%;
     left: 400px;
@@ -338,7 +338,7 @@ header {
 /* начало отзывов */
 
 .review__wrapper {
-    background-image: url(back.png);
+    background-image: url(img/back.png);
     background-size: cover;
     padding: 100px 0;
 }
@@ -371,15 +371,15 @@ header {
 /* тут хранятся картинки. Общий класс [class*="picture"]  должен обязательно находится ниже */
 
 .review__picture1 {
-    background: url(review_pic1.png);
+    background: url(img/review_pic1.png);
 }
 
 .review__picture2 {
-    background: url(review_pic2.png);
+    background: url(img/review_pic2.png);
 }
 
 .review__picture3 {
-    background: url(review_pic3.png);
+    background: url(img/review_pic3.png);
 }
 
 [class*="review__picture"] {
@@ -398,8 +398,8 @@ header {
     margin-left: 30px;
     border-radius: 7px;
 }
-
-.review__review::before {
+/* стрелочка у отзыва */
+.review__block::before {
     content: '';
     position: absolute;
     left: -13px;
@@ -458,4 +458,76 @@ header {
     line-height: 1.5;
     color:#666666;
     display: inline-block;
+}
+
+/* начало Футера */
+
+.footer__info {
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    position: relative;
+}
+
+.footer__list { 
+    position: relative;
+    margin: 40px 400px;
+    list-style: none;
+    line-height: 2em;
+    font-size: 1.1em;
+    color:#666;
+}
+
+/* иконки */
+.footer__list__icon1::before {
+    position: absolute;
+    content: url(img/footer__icon1.png);
+    left:-30px;
+}
+
+.footer__list__icon6::before {
+    position: absolute;
+    content: url(img/footer__icon6.png);
+    left:-30px;
+}
+
+.footer__icons {
+    position: absolute;
+    top:75%;
+    left:22%;
+}
+
+.footer__icons a {
+    margin-right: 20px;
+}
+
+.footer__map {
+    background: url("img/footer_map.png") no-repeat;
+    background-size: cover;
+    width: 65%;
+    height: 350px;
+
+}
+
+.footer__down {
+    display:block;
+    height: 150px;
+    background: #3070a8;
+    text-align: center;
+}
+
+.footer__text {
+    padding-top: 35px;
+    line-height: 2em;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.footer__logo {
+    font-weight: 700;
+}
+
+.footer__Iconic{
+    color: #000;
+    font-weight: 700;
 }
