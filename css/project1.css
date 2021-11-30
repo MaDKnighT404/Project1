@@ -60,7 +60,6 @@ header {
     position: relative;
     text-transform: uppercase;
     font-size: 1.0em;
-    margin-right: 5px;
 }
 
 .main__menu__link {
@@ -73,7 +72,7 @@ header {
 .main__menu__cell:hover {
     padding-bottom:66px;
     border-bottom: 4px solid #3070a8;
-    margin-bottom: -35px;
+    margin-bottom: -66px;
 }
 
 .main__menu__link:hover {
