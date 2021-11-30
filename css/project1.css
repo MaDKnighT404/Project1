@@ -60,6 +60,9 @@ header {
     position: relative;
     text-transform: uppercase;
     font-size: 1.0em;
+    border:0;
+    transition: border 0.2s ease-in;
+    transition-delay: 0.15s;
 }
 
 .main__menu__link {
@@ -77,10 +80,9 @@ header {
 
 .main__menu__link:hover {
     color: #3070a8;
-
 }
 
-.main__menu__link:hover::after {
+.main__menu__link::after {
     content: '';
     position: fixed;
     top:153px;
@@ -88,6 +90,11 @@ header {
     width: 100%;
     height: 500px;
     background: #0653b2;
+    opacity: 0;
+    transition: 0.7s;
+}
+
+.main__menu__link:hover::after {
     opacity: 0.8;
     z-index: 1;
 }
