@@ -14,7 +14,13 @@ html,body {
     padding: 0;
 }
 
+
+
+
 /* начало меню header */
+
+
+
 
 header {
     background-image: url(img/background_header.png);
@@ -147,7 +153,13 @@ header {
     font-weight: 700;
 }
 
+
+
+
 /* начало цен */
+
+
+
 
 .price__main__conteiner{ 
     position: relative;
@@ -287,7 +299,63 @@ header {
     left: 400px;
 }
 
+
+/* таблица у цен */
+
+
+
+[class*="price__table_"]{
+    list-style: none;
+}
+
+[class*="price__table_"] li:nth-child(odd) { 
+    background-color: #EDF5FD;
+}
+[class*="price__table_"] li:nth-child(even) {
+    background-color: #F5F5F6;
+}
+
+[class*="price__button__"] {
+    padding:12px 60px 9px 60px;
+    margin:10px 0 20px 0;
+    background: #2f70a8;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-bottom: 3px solid #0e304e;
+    transition-duration: 0.4s;
+}
+
+.price__button__center {
+    background: #ee8129;
+    border-bottom: 3px solid #693810;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.price__button__left:hover {
+    background: #2ac2d5;
+}
+
+.price__button__center:hover {
+    background:#ff7300;
+}
+
+.price__button__right:hover {
+    background:#1cb79a;
+}
+
+
+
+
+
 /* преимущества */
+
+
+
+
 
 .benefits__wrapper__conteiner {
     display: flex;
@@ -358,52 +426,10 @@ header {
 
 
 
-/* таблица у цен */
-
-[class*="price__table_"]{
-    list-style: none;
-}
-
-[class*="price__table_"] li:nth-child(odd) { 
-    background-color: #EDF5FD;
-}
-[class*="price__table_"] li:nth-child(even) {
-    background-color: #F5F5F6;
-}
-
-[class*="price__button__"] {
-    padding:12px 60px 9px 60px;
-    margin:10px 0 20px 0;
-    background: #2f70a8;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 12px;
-    cursor: pointer;
-    border-radius: 5px;
-    border-bottom: 3px solid #0e304e;
-    transition-duration: 0.4s;
-}
-
-.price__button__center {
-    background: #ee8129;
-    border-bottom: 3px solid #693810;
-    margin-bottom: 30px;
-    margin-top: 10px;
-}
-
-.price__button__left:hover {
-    background: #2ac2d5;
-}
-
-.price__button__center:hover {
-    background:#ff7300;
-}
-
-.price__button__right:hover {
-    background:#1cb79a;
-}
-
 /* начало отзывов */
+
+
+
 
 .review__wrapper {
     background-image: url(img/back.png);
@@ -434,7 +460,6 @@ header {
     margin-left: 40px;
     margin-top: 50px;
 }
-
 
 /* тут хранятся картинки. Общий класс [class*="picture"]  должен обязательно находится ниже */
 
@@ -527,7 +552,13 @@ header {
     display: inline-block;
 }
 
+
+
+
 /* начало Футера */
+
+
+
 
 .footer__info {
     display: flex;
