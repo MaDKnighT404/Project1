@@ -287,6 +287,77 @@ header {
     left: 400px;
 }
 
+/* преимущества */
+
+.benefits__wrapper__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px; 
+}
+
+.benefits__title {
+    text-transform: uppercase;
+    margin:60px auto;
+}
+
+.benefits__conteiner__main {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+}
+.benefits__conteiner {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 30%;
+    margin-right: 50px;
+}
+
+.benefits__index {
+    margin:30px auto;
+    color: #3070a8;
+    text-transform: uppercase;
+
+}
+
+.benefits__text {
+    color:#999999;
+    font-size: 12px;
+    text-align: center;
+    margin:40px;
+    line-height: 1.6em;
+}
+
+[class*="benefits__pic"]{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+
+}
+
+.benefits__pic1 {
+    background: url(img/benefits_protect.png) no-repeat;
+    background-size: 100%;
+}
+
+.benefits__pic2 {
+    background: url(img/benefits_alert.png) no-repeat;
+    background-size: 100%;
+}
+
+.benefits__pic3 {
+    background: url(img/benefits_detect.png) no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
 /* таблица у цен */
 
 [class*="price__table_"]{
