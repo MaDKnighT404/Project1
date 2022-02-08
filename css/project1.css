@@ -155,6 +155,157 @@ header {
 
 
 
+/* преимущества картинки */
+
+
+
+.benefits__wrapper__conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 100px; 
+}
+
+.benefits__title {
+    text-transform: uppercase;
+    margin:60px auto;
+}
+
+.benefits__conteiner__main {
+    display: flex;
+    margin: 20px auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 55%;
+}
+.benefits__conteiner {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 30%;
+    margin-right: 50px;
+}
+
+.benefits__index {
+    margin:30px auto;
+    color: #3070a8;
+    text-transform: uppercase;
+
+}
+
+.benefits__text {
+    color:#999999;
+    font-size: 12px;
+    text-align: center;
+    margin:40px;
+    line-height: 1.6em;
+}
+
+[class*="benefits__pic"]{
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+
+}
+
+.benefits__pic1 {
+    background: url(img/benefits_protect.png) no-repeat;
+    background-size: 100%;
+}
+
+.benefits__pic2 {
+    background: url(img/benefits_alert.png) no-repeat;
+    background-size: 100%;
+}
+
+.benefits__pic3 {
+    background: url(img/benefits_detect.png) no-repeat;
+    background-size: 100%;
+}
+
+
+
+
+
+/* преимущества текст */
+
+
+.text__benefits__wrapper__conteiner {
+    margin-top: -100px;
+}
+
+
+
+
+
+.text__benefits__background {
+    background: url(img/Benefits_background.png)no-repeat;
+    width: 100%;
+    height:900px;
+    background-size: cover;
+    position: relative;
+}
+
+.text__benefits__black__background {
+    background-color: #000;
+    width:100%;
+    height:600px;
+    background-size: cover;
+    position: absolute;
+    top:20px
+}
+
+.text__benefits {
+    display: flex;
+    flex-direction: column;
+    margin: 90px 200px;
+
+}
+
+.text__benefits > h1 {
+    color:#ee8129;
+    width: 800px;
+    height: 180px;
+    line-height: 1.9;
+    text-transform: uppercase;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    font-weight: normal; 
+}
+
+.text__benefits > h2 {
+    color: #fff;
+    font-style: italic;
+    margin-top: -40px;
+    font-weight: normal;
+}
+
+.text__benefits__list > li {
+    margin-top:40px;
+    line-height: 1.5;   
+}
+
+.text__benefits__list__2 {
+color:#3070a8;
+}
+
+.text__benefits__list__4 {
+    color:#fff;
+    padding-top: 619px;
+    padding-left: 10px;
+    margin:190px;
+    line-height: 1.5; 
+} 
+
+.text__benefits > ul {
+    color: #9d9d9d;
+}
+
+
+
+
 
 /* начало цен */
 
@@ -350,77 +501,6 @@ header {
 
 
 
-
-/* преимущества */
-
-
-
-
-
-.benefits__wrapper__conteiner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 100px; 
-}
-
-.benefits__title {
-    text-transform: uppercase;
-    margin:60px auto;
-}
-
-.benefits__conteiner__main {
-    display: flex;
-    margin: 20px auto;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 55%;
-}
-.benefits__conteiner {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
-    height: 30%;
-    margin-right: 50px;
-}
-
-.benefits__index {
-    margin:30px auto;
-    color: #3070a8;
-    text-transform: uppercase;
-
-}
-
-.benefits__text {
-    color:#999999;
-    font-size: 12px;
-    text-align: center;
-    margin:40px;
-    line-height: 1.6em;
-}
-
-[class*="benefits__pic"]{
-    width: 150px;
-    height: 150px;
-    margin: 10px auto;
-
-}
-
-.benefits__pic1 {
-    background: url(img/benefits_protect.png) no-repeat;
-    background-size: 100%;
-}
-
-.benefits__pic2 {
-    background: url(img/benefits_alert.png) no-repeat;
-    background-size: 100%;
-}
-
-.benefits__pic3 {
-    background: url(img/benefits_detect.png) no-repeat;
-    background-size: 100%;
-}
 
 
 
