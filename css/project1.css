@@ -143,7 +143,7 @@ header {
     text-align:center;
 }
 
-.menu__list__content button {
+.menu__list__content .main__menu_button {
     margin: 25px auto;
     width: 250px;
     height: 50px;
@@ -153,7 +153,9 @@ header {
     font-weight: 700;
 }
 
+.main__menu_button:hover {
 
+}
 
 /* преимущества картинки */
 
@@ -228,15 +230,14 @@ header {
 
 
 
-/* преимущества текст */
+/* текстовый блок преимуществ */
+
+
 
 
 .text__benefits__wrapper__conteiner {
-    margin-top: -100px;
+    margin-top: -20px;
 }
-
-
-
 
 
 .text__benefits__background {
@@ -259,13 +260,14 @@ header {
 .text__benefits {
     display: flex;
     flex-direction: column;
+    align-items: center;
     margin: 90px 200px;
 
 }
 
 .text__benefits > h1 {
     color:#ee8129;
-    width: 800px;
+    width: 75%;
     height: 180px;
     line-height: 1.9;
     text-transform: uppercase;
@@ -280,6 +282,12 @@ header {
     font-style: italic;
     margin-top: -40px;
     font-weight: normal;
+    width: 75%;
+}
+
+.text__benefits > ul {
+    color: #9d9d9d;
+    width: 75%;
 }
 
 .text__benefits__list > li {
@@ -293,14 +301,17 @@ color:#3070a8;
 
 .text__benefits__list__4 {
     color:#fff;
+    width: 60%;
     padding-top: 619px;
     padding-left: 10px;
-    margin:190px;
     line-height: 1.5; 
 } 
 
-.text__benefits > ul {
-    color: #9d9d9d;
+.text__benefits__list2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 
