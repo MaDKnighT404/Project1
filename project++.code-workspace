@@ -1,17 +1,20 @@
 {
-	"folders": [
-		{
-			"path": "..\\Lessons"
-		},
-		{
-			"name": "Project1",
-			"path": "."
-		},
-		{
-			"path": "..\\test"
-		}
-	],
-	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "test"
-	}
+  "folders": [
+    {
+      "path": "..\\Lessons"
+    },
+    {
+      "name": "Project1",
+      "path": "."
+    },
+    {
+      "path": "..\\test"
+    },
+    {
+      "path": "..\\Project2"
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Lessons"
+  }
 }
